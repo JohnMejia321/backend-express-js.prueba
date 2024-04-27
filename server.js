@@ -28,7 +28,7 @@ app.set('port', port);
 const users = require('./routes/usersRoutes');
 
 
-server.listen(3000,  'localhost'  , function() {
+server.listen(3000,  ' 0.0.0.0'  , function() {
     console.log('Aplicacion de NodeJS ' + port + ' Iniciada...')
 });
 
